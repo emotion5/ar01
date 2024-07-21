@@ -1,0 +1,28 @@
+# 운영 체제 관련 파일 무시
+.DS_Store
+Thumbs.db
+
+# 로그 파일 무시
+*.log
+
+# 빌드 디렉토리 무시
+/dist
+/build
+
+# node_modules 디렉토리 무시
+/node_modules
+
+# 환경 변수 파일 무시
+.env
+
+# 특정 파일 무시
+secret.txt
+
+# 특정 디렉토리 무시
+/private/
+
+# 모든 .txt 파일 무시
+*.txt
+
+# 예외 처리: .txt 파일을 무시하지 않도록 설정
+!important.txt
